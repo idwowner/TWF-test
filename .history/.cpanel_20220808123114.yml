@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/websitefactory/public_html/wp-content/themes/git_test
+    - /bin/cp -R . $DEPLOYPATH
